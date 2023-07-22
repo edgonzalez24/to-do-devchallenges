@@ -11,7 +11,7 @@ const Tabs = ({onHandleSelectTab}) => {
   }
 
   return (
-    <ul className="w-full border-b border-gray-200 flex justify-between">
+    <ul className="w-full border-b border-gray-400 flex justify-between">
       { menuItems.map((item) => {
         return (
           <li className="w-40 text-center" key={item.id}>

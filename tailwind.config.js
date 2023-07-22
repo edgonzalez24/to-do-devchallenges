@@ -8,7 +8,11 @@ export default {
       },
       colors: {
         dark: '#333',
-        blue: '#2F80ED'
+        blue: '#2F80ED',
+        gray: {
+          300: '#828282',
+          400: '#BDBDBD'
+        }
       }
     },
   },

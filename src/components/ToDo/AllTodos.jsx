@@ -18,6 +18,7 @@ const AllTodos = () => {
             id="input"
             className="w-full"
             type="text"
+            placeholder="add details"
             value={userInput}
             onChange={() => setUserInput(event.target.value)}
           />
