@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import Tabs from '@/components/UI/Tabs';
 import { useState } from 'react';
-import AllTodos from '@/components/ToDo/AllTodos';
+import AllTodoList from '@/components/AllTodoList';
 
 function App() {
   const [ selectedTab, setSelectedTab ] = useState(1)
@@ -15,11 +15,7 @@ function App() {
         <div className="mt-5">
           <Tabs onHandleSelectTab={onHandleSelectTab} />
         </div>
-        <div  className="mt-5">
-          {
-            selectedTab === 1 && <AllTodos />
-          }
-        </div>
+        <div className="mt-5">{selectedTab === 1 && <AllTodoList />}</div>
       </div>
     </main>
   );
