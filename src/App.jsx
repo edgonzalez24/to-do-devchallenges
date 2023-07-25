@@ -32,7 +32,7 @@ function App() {
       <footer className="flex justify-center">
         <span className="text-gray-200 text-sm text-center py-5 font-montserrat">
           Created by{' '}
-          <a className='font-bold' href="https://github.com/edgonzalez24">Edwin González</a> -
+          <a className='font-bold underline' href="https://github.com/edgonzalez24">Edwin González</a> -
           devChallenges.io
         </span>
       </footer>
