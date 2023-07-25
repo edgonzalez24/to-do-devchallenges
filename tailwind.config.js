@@ -10,9 +10,11 @@ export default {
         dark: '#333',
         blue: '#2F80ED',
         gray: {
+          200: '#A9A9A9',
           300: '#828282',
           400: '#BDBDBD'
-        }
+        },
+        red: '#EB5757'
       }
     },
   },

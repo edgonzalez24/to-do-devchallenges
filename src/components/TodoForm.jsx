@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import Input from '@/components/UI/Input';
 import Button from '@/components/UI/Button';
 
-const Form = ({ onAddTodo }) => {
+const Form = ({ onAddTodo, isActive }) => {
   const [userInput, setUserInput] = useState('');
   const [isValid, setIsValid] = useState(null);
   const submitHandler = (event) => {
@@ -18,7 +19,7 @@ const Form = ({ onAddTodo }) => {
             {
               id: Math.random(),
               todo: userInput,
-              active: false,
+              active: isActive,
             },
           ])
         );
@@ -29,7 +30,7 @@ const Form = ({ onAddTodo }) => {
             {
               id: Math.random(),
               todo: userInput,
-              active: false,
+              active: isActive,
             },
           ])
         );
